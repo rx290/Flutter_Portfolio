@@ -1,90 +1,3 @@
-import 'package:assets_app/Screens/Assets/Assets.dart';
-import 'package:assets_app/Screens/Assets/SubScreens/Asset_Bundle.dart';
-import 'package:assets_app/Screens/Assets/SubScreens/Icons.dart';
-import 'package:assets_app/Screens/Assets/SubScreens/Images.dart';
-import 'package:assets_app/Screens/Assets/SubScreens/Raw_Images.dart';
-import 'package:assets_app/Screens/Assets/SubScreens/SVG_Pictures.dart';
-import 'package:assets_app/Screens/Basic_widgets/SubScreens/Column.dart';
-import 'package:assets_app/Screens/Basic_widgets/SubScreens/Container.dart';
-import 'package:assets_app/Screens/Basic_widgets/SubScreens/Flutter_logo.dart';
-import 'package:assets_app/Screens/Basic_widgets/SubScreens/Material_Theme.dart';
-import 'package:assets_app/Screens/Basic_widgets/SubScreens/Place_Holder.dart';
-import 'package:assets_app/Screens/Basic_widgets/SubScreens/Row.dart';
-import 'package:assets_app/Screens/Basic_widgets/SubScreens/Scaffold.dart';
-import 'package:assets_app/Screens/Buttons/SubScreens/Button_Bar.dart';
-import 'package:assets_app/Screens/Buttons/SubScreens/Drop_down_button.dart';
-import 'package:assets_app/Screens/Buttons/SubScreens/FAB.dart';
-import 'package:assets_app/Screens/Buttons/SubScreens/Flat_button.dart';
-import 'package:assets_app/Screens/Buttons/SubScreens/Icon_button.dart';
-import 'package:assets_app/Screens/Buttons/SubScreens/Outline_button.dart';
-import 'package:assets_app/Screens/Buttons/SubScreens/Popup_menu.dart';
-import 'package:assets_app/Screens/Buttons/SubScreens/Raised_button.dart';
-import 'package:assets_app/Screens/Dialogs/SubScreens/AlertDialog.dart';
-import 'package:assets_app/Screens/Dialogs/SubScreens/SimpleDialogs.dart';
-import 'package:assets_app/Screens/Dialogs/SubScreens/SnackBar.dart';
-import 'package:assets_app/Screens/Dialogs/SubScreens/Toast.dart';
-import 'package:assets_app/Screens/Home/Home.dart';
-import 'package:assets_app/Screens/Home/SubScreens/Basic_Widgets.dart';
-import 'package:assets_app/Screens/Home/SubScreens/Buttons.dart';
-import 'package:assets_app/Screens/Home/SubScreens/Dialogs.dart';
-import 'package:assets_app/Screens/Home/SubScreens/Information_display_widget.dart';
-import 'package:assets_app/Screens/Home/SubScreens/Input&Selection.dart';
-import 'package:assets_app/Screens/Home/SubScreens/Layout.dart';
-import 'package:assets_app/Screens/Home/SubScreens/Multi_child_layout_widgets.dart';
-import 'package:assets_app/Screens/Home/SubScreens/Navigation.dart';
-import 'package:assets_app/Screens/Home/SubScreens/Single_Child_Widgets.dart';
-import 'package:assets_app/Screens/Home/SubScreens/TextWidget.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/BottomSheet.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/DataTables.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/ExpansionSheet.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/FractionallySizedBox.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/GridView.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/LinearProgressbar.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/ListView.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/ProgressBars.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/Tooltip.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/card.dart';
-import 'package:assets_app/Screens/Information_display_widgets/SubScreens/chip.dart';
-import 'package:assets_app/Screens/Input_&_Selection/SubScreens/Radio_button.dart';
-import 'package:assets_app/Screens/Input_&_Selection/SubScreens/SizedBox.dart';
-import 'package:assets_app/Screens/Input_&_Selection/SubScreens/Slider.dart';
-import 'package:assets_app/Screens/Input_&_Selection/SubScreens/Switch.dart';
-import 'package:assets_app/Screens/Input_&_Selection/SubScreens/Textfield.dart';
-import 'package:assets_app/Screens/Layout/Subscreens/Divider.dart';
-import 'package:assets_app/Screens/Layout/Subscreens/Listtile.dart';
-import 'package:assets_app/Screens/Layout/Subscreens/Stepper.dart';
-import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/CustomChildLayout.dart';
-import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/Flow.dart';
-import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/LayoutBuilder.dart';
-import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/ListBody.dart';
-import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/Stack.dart';
-import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/Table.dart';
-import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/Wrap.dart';
-import 'package:assets_app/Screens/Navigation/Subscreens/Appbar.dart';
-import 'package:assets_app/Screens/Navigation/Subscreens/BottomNavigationBar.dart';
-import 'package:assets_app/Screens/Navigation/Subscreens/Drawer.dart';
-import 'package:assets_app/Screens/Navigation/Subscreens/MaterialApp.dart';
-import 'package:assets_app/Screens/Navigation/Subscreens/SliverAppBar.dart';
-import 'package:assets_app/Screens/Navigation/Subscreens/TabBar.dart';
-import 'package:assets_app/Screens/Navigation/Subscreens/TabBarView.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Align.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Aspect_Ratio.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Baseline.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Center.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/ConstrainedBox.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/CustomSingleChildLayout.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Expanded.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/FittedBox.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Flexible.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/LimitedBox.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/OffStage.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/OverflowBox.dart';
-import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Padding.dart';
-import 'package:assets_app/Screens/Text_Widgets/Subscreens/Default_Text_Style.dart';
-import 'package:assets_app/Screens/Text_Widgets/Subscreens/RichText.dart';
-import 'package:assets_app/Screens/Text_Widgets/Subscreens/Text.dart';
-import 'package:flutter/material.dart';
-
 export 'package:assets_app/Screens/Assets/Assets.dart';
 export 'package:assets_app/Screens/Assets/SubScreens/Asset_Bundle.dart';
 export 'package:assets_app/Screens/Assets/SubScreens/Icons.dart';
@@ -111,16 +24,6 @@ export 'package:assets_app/Screens/Dialogs/SubScreens/SimpleDialogs.dart';
 export 'package:assets_app/Screens/Dialogs/SubScreens/SnackBar.dart';
 export 'package:assets_app/Screens/Dialogs/SubScreens/Toast.dart';
 export 'package:assets_app/Screens/Home/Home.dart';
-export 'package:assets_app/Screens/Home/SubScreens/Basic_Widgets.dart';
-export 'package:assets_app/Screens/Home/SubScreens/Buttons.dart';
-export 'package:assets_app/Screens/Home/SubScreens/Dialogs.dart';
-export 'package:assets_app/Screens/Home/SubScreens/Information_display_widget.dart';
-export 'package:assets_app/Screens/Home/SubScreens/Input&Selection.dart';
-export 'package:assets_app/Screens/Home/SubScreens/Layout.dart';
-export 'package:assets_app/Screens/Home/SubScreens/Multi_child_layout_widgets.dart';
-export 'package:assets_app/Screens/Home/SubScreens/Navigation.dart';
-export 'package:assets_app/Screens/Home/SubScreens/Single_Child_Widgets.dart';
-export 'package:assets_app/Screens/Home/SubScreens/TextWidget.dart';
 export 'package:assets_app/Screens/Information_display_widgets/SubScreens/BottomSheet.dart';
 export 'package:assets_app/Screens/Information_display_widgets/SubScreens/DataTables.dart';
 export 'package:assets_app/Screens/Information_display_widgets/SubScreens/ExpansionSheet.dart';
@@ -173,6 +76,95 @@ export 'package:assets_app/Screens/Text_Widgets/Subscreens/Text.dart';
 export 'package:flutter/material.dart';
 export 'package:device_preview/device_preview.dart';
 
+import 'package:assets_app/Screens/Assets/Assets.dart';
+import 'package:assets_app/Screens/Assets/SubScreens/Asset_Bundle.dart';
+import 'package:assets_app/Screens/Assets/SubScreens/Icons.dart';
+import 'package:assets_app/Screens/Assets/SubScreens/Images.dart';
+import 'package:assets_app/Screens/Assets/SubScreens/Raw_Images.dart';
+import 'package:assets_app/Screens/Assets/SubScreens/SVG_Pictures.dart';
+import 'package:assets_app/Screens/Basic_widgets/BasicWidgets.dart';
+import 'package:assets_app/Screens/Basic_widgets/SubScreens/Column.dart';
+import 'package:assets_app/Screens/Basic_widgets/SubScreens/Container.dart';
+import 'package:assets_app/Screens/Basic_widgets/SubScreens/Flutter_logo.dart';
+import 'package:assets_app/Screens/Basic_widgets/SubScreens/Material_Theme.dart';
+import 'package:assets_app/Screens/Basic_widgets/SubScreens/Place_Holder.dart';
+import 'package:assets_app/Screens/Basic_widgets/SubScreens/Row.dart';
+import 'package:assets_app/Screens/Basic_widgets/SubScreens/Scaffold.dart';
+import 'package:assets_app/Screens/Buttons/Buttons.dart';
+import 'package:assets_app/Screens/Buttons/SubScreens/Button_Bar.dart';
+import 'package:assets_app/Screens/Buttons/SubScreens/Drop_down_button.dart';
+import 'package:assets_app/Screens/Buttons/SubScreens/FAB.dart';
+import 'package:assets_app/Screens/Buttons/SubScreens/Flat_button.dart';
+import 'package:assets_app/Screens/Buttons/SubScreens/Icon_button.dart';
+import 'package:assets_app/Screens/Buttons/SubScreens/Outline_button.dart';
+import 'package:assets_app/Screens/Buttons/SubScreens/Popup_menu.dart';
+import 'package:assets_app/Screens/Buttons/SubScreens/Raised_button.dart';
+import 'package:assets_app/Screens/Dialogs/Dialogs.dart';
+import 'package:assets_app/Screens/Dialogs/SubScreens/AlertDialog.dart';
+import 'package:assets_app/Screens/Dialogs/SubScreens/SimpleDialogs.dart';
+import 'package:assets_app/Screens/Dialogs/SubScreens/SnackBar.dart';
+import 'package:assets_app/Screens/Dialogs/SubScreens/Toast.dart';
+import 'package:assets_app/Screens/Home/Home.dart';
+import 'package:assets_app/Screens/Information_display_widgets/Information_Display_Widgets.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/BottomSheet.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/DataTables.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/ExpansionSheet.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/FractionallySizedBox.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/GridView.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/LinearProgressbar.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/ListView.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/ProgressBars.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/Tooltip.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/card.dart';
+import 'package:assets_app/Screens/Information_display_widgets/SubScreens/chip.dart';
+import 'package:assets_app/Screens/Input_&_Selection/Input_&_Selection.dart';
+import 'package:assets_app/Screens/Input_&_Selection/SubScreens/Checkbox.dart';
+import 'package:assets_app/Screens/Input_&_Selection/SubScreens/Date&TimePicker.dart';
+import 'package:assets_app/Screens/Input_&_Selection/SubScreens/Radio_button.dart';
+import 'package:assets_app/Screens/Input_&_Selection/SubScreens/SizedBox.dart';
+import 'package:assets_app/Screens/Input_&_Selection/SubScreens/Slider.dart';
+import 'package:assets_app/Screens/Input_&_Selection/SubScreens/Switch.dart';
+import 'package:assets_app/Screens/Input_&_Selection/SubScreens/Textfield.dart';
+import 'package:assets_app/Screens/Layout/Layout.dart';
+import 'package:assets_app/Screens/Layout/Subscreens/Divider.dart';
+import 'package:assets_app/Screens/Layout/Subscreens/Listtile.dart';
+import 'package:assets_app/Screens/Layout/Subscreens/Stepper.dart';
+import 'package:assets_app/Screens/Multi_child_layout_widgets/Multi_Child_Layout_Widgets.dart';
+import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/CustomChildLayout.dart';
+import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/Flow.dart';
+import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/LayoutBuilder.dart';
+import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/ListBody.dart';
+import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/Stack.dart';
+import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/Table.dart';
+import 'package:assets_app/Screens/Multi_child_layout_widgets/Subscreens/Wrap.dart';
+import 'package:assets_app/Screens/Navigation/Navigation.dart';
+import 'package:assets_app/Screens/Navigation/Subscreens/Appbar.dart';
+import 'package:assets_app/Screens/Navigation/Subscreens/BottomNavigationBar.dart';
+import 'package:assets_app/Screens/Navigation/Subscreens/Drawer.dart';
+import 'package:assets_app/Screens/Navigation/Subscreens/MaterialApp.dart';
+import 'package:assets_app/Screens/Navigation/Subscreens/SliverAppBar.dart';
+import 'package:assets_app/Screens/Navigation/Subscreens/TabBar.dart';
+import 'package:assets_app/Screens/Navigation/Subscreens/TabBarView.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Align.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Aspect_Ratio.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Baseline.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Center.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/ConstrainedBox.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/CustomSingleChildLayout.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Expanded.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/FittedBox.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Flexible.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/LimitedBox.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/OffStage.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/OverflowBox.dart';
+import 'package:assets_app/Screens/Single_child_layout_widgets/Single_Child_Layout/Padding.dart';
+import 'package:assets_app/Screens/Text_Widgets/Subscreens/Default_Text_Style.dart';
+import 'package:assets_app/Screens/Text_Widgets/Subscreens/RichText.dart';
+import 'package:assets_app/Screens/Text_Widgets/Subscreens/Text.dart';
+import 'package:assets_app/Screens/Text_Widgets/TextWidgets.dart';
+import 'package:flutter/material.dart';
+
 var customRoutes = <String, WidgetBuilder>{
   '/': (context) => Home(),
   // When navigating to the "/second" route, build the SecondScreen widget.
@@ -180,13 +172,13 @@ var customRoutes = <String, WidgetBuilder>{
   '/Basic Widgets': (context) => BasicWidgets(),
   '/Button Widgets': (context) => Buttons(),
   '/Dialogs Widgets': (context) => Dialogs(),
-  '/Information Display Widgets': (context) => InformationDisplayWidget(),
+  '/Information Display Widgets': (context) => InformationDisplayWidgets(),
   '/Input & Selection Widgets': (context) => InputAndSelection(),
-  '/Layout Widgets': (context) => Layout(),
-  '/Multi Child Layout Widgets': (context) => MultiChildLayoutWidgets(),
+  '/Layout Widgets': (context) => Layouts(),
+  '/Multi Child Layout Widgets': (context) => MultiChildLayout(),
   '/Navigation Widgets': (context) => Navigation(),
-  '/Single Child Layout Widgets': (context) => SingleChildWidgets(),
-  '/Text Widgets': (context) => TextWidget(),
+  '/Single Child Layout Widgets': (context) => SingleChildLayout(),
+  '/Text Widgets': (context) => TextWidgets(),
   '/Assets_Bundles': (context) => AssetBundle(),
   '/Icon': (context) => IconWidget(),
   '/Image': (context) => Images(),
@@ -222,8 +214,8 @@ var customRoutes = <String, WidgetBuilder>{
   '/ListView': (context) => Listviews(),
   '/ProgressBar': (context) => ProgressBars(),
   '/Tooltip': (context) => Tooltips(),
-  '/Checkbox': (context) => Tooltips(),
-  '/DateTimePicker': (context) => Tooltips(),
+  '/Checkbox': (context) => Checkboxes(),
+  '/DateTimePicker': (context) => DateTimePicker(),
   '/Padding': (context) => Paddings(),
   '/Radio Button': (context) => RadioButtons(),
   '/SizedBox': (context) => SizedBoxes(),
