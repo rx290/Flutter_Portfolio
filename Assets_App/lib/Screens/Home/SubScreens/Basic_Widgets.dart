@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class InformationDisplayWidget extends StatelessWidget {
+class BasicWidgets extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> text = [
-      'Card',
-      'Chip',
-      'Circular Progress Indicator',
-      'Data Table',
-      'Grid View',
-      'Linear Progress Indicator',
-      'Tooltip',
+      'Column',
+      'Row',
+      'Container',
+      'Flutter Logo',
+      'Place Holder',
+      'Scaffold',
+      'Material Theme'
     ];
     return Scaffold(
       appBar: AppBar(

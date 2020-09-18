@@ -6,8 +6,6 @@ class Dialogs extends StatelessWidget {
     List<String> text = [
       'AlertDialog',
       'Bottom Sheet',
-      'Expansion Panel',
-      'Simple Dialog',
       'Snack Bar',
       'Toast',
     ];

@@ -8,7 +8,8 @@ class Assets extends StatelessWidget {
       'Image',
       'Raw Image',
       'Asset Bundle',
-      'SVG_Picture'
+      'SVG_Picture',
+      'Flutter_Logo',
     ];
     return Scaffold(
       appBar: AppBar(

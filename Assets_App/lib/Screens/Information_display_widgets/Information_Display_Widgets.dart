@@ -1,21 +1,36 @@
 import 'package:flutter/material.dart';
 
-class Home extends StatelessWidget {
+class InformationDisplayWidgets extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> text = [
-      'Assets Widgets',
-      'Basic Widgets',
-      'Buttons Widgets',
-      'Dialogs Widgets',
-      'Information Display Widgets',
-      'Input & Selection Widgets',
-      'Layout Widget',
-      'Multi Child Layout Widget',
-      'Navigation Widget',
-      'Single Child Layout Widget',
-      'Text Widgets',
+      'Bottom Sheet',
+      'Card',
+      'Chip',
+      'Data Table',
+      'Expansion Sheet',
+      'Fractionally Sized Box',
+      'Grid View',
+      'Linear Progress Bar',
+      'List View',
+      'Progress Bars',
+      'Tooltip',
     ];
+
+    List<String> routes = [
+      '/Bottom Sheet',
+      '/Card',
+      '/Chip',
+      '/DataTable',
+      '/ExpansionSheet',
+      '/FractionallySizedBox',
+      '/GridView',
+      '/LinearProgressBar',
+      '/ListView',
+      '/ProgressBar',
+      '/Tooltip',
+    ];
+
     return Scaffold(
       appBar: AppBar(
         title: Text("List of Widgets"),
@@ -31,7 +46,9 @@ class Home extends StatelessWidget {
                     width: 180,
                     height: 80,
                     child: RaisedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushNamed(context, routes[index]);
+                        },
                         child: Text(
                           text[index],
                           textAlign: TextAlign.center,
