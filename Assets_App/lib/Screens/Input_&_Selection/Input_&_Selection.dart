@@ -27,7 +27,7 @@ class InputAndSelection extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("List of Widgets"),
+        title: Text("Input & Selection Widgets"),
       ),
       body: SingleChildScrollView(
         child: Column(

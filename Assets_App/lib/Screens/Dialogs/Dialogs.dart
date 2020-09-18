@@ -19,7 +19,7 @@ class Dialogs extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("List of Widgets"),
+        title: Text("Dialog Widgets"),
       ),
       body: SingleChildScrollView(
         child: Column(

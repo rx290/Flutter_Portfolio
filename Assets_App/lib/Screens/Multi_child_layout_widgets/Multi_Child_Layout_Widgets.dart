@@ -25,7 +25,7 @@ class MultiChildLayout extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("List of Widgets"),
+        title: Text("Multi Child Layout Widgets"),
       ),
       body: SingleChildScrollView(
         child: Column(

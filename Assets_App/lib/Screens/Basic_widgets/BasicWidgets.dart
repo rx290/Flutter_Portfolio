@@ -25,7 +25,7 @@ class BasicWidgets extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("List of Widgets"),
+        title: Text("Basic Widgets"),
       ),
       body: SingleChildScrollView(
         child: Column(

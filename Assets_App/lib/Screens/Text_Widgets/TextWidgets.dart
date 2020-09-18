@@ -17,7 +17,7 @@ class TextWidgets extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("List of Widgets"),
+        title: Text("Text Widgets"),
       ),
       body: SingleChildScrollView(
         child: Column(

@@ -17,7 +17,7 @@ class Layouts extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("List of Widgets"),
+        title: Text("Layout Widgets"),
       ),
       body: SingleChildScrollView(
         child: Column(

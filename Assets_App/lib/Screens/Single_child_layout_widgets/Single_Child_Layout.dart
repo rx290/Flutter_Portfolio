@@ -39,7 +39,7 @@ class SingleChildLayout extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("List of Widgets"),
+        title: Text("Single Child Layout Widgets"),
       ),
       body: SingleChildScrollView(
         child: Column(
