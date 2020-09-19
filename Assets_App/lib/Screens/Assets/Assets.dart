@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:assets_app/supporting_libraries/libraries.dart';
 
 class Asset extends StatelessWidget {
   @override
@@ -41,7 +41,7 @@ class Asset extends StatelessWidget {
                           text[index],
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                            fontSize: 14,
+                            fontSize: ResponsiveFlutter.of(context).fontSize(2),
                           ),
                         )),
                   ),

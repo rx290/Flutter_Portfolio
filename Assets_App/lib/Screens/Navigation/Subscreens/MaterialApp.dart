@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:assets_app/supporting_libraries/libraries.dart';
 
 class MaterialApps extends StatelessWidget {
   const MaterialApps({Key key}) : super(key: key);

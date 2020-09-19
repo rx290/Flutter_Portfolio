@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:assets_app/supporting_libraries/libraries.dart';
 
 class SliverAppBars extends StatelessWidget {
   const SliverAppBars({Key key}) : super(key: key);
@@ -13,3 +13,4 @@ class SliverAppBars extends StatelessWidget {
     );
   }
 }
+

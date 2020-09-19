@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:assets_app/supporting_libraries/libraries.dart';
 
 class Flexibles extends StatelessWidget {
   const Flexibles({Key key}) : super(key: key);

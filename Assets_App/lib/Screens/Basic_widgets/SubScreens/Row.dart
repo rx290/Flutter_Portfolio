@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:assets_app/supporting_libraries/libraries.dart';
 
 class Rows extends StatelessWidget {
   const Rows({Key key}) : super(key: key);

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:assets_app/supporting_libraries/libraries.dart';
 
 class AssetBundle extends StatelessWidget {
   const AssetBundle({Key key}) : super(key: key);
@@ -9,6 +9,15 @@ class AssetBundle extends StatelessWidget {
       appBar: AppBar(
         title: Text('Asset Bundle Widget'),
         centerTitle: true,
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+
+            
+
+          ],
+        ),
       ),
     );
   }

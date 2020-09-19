@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:assets_app/supporting_libraries/libraries.dart';
 
 class TabBars extends StatelessWidget {
   const TabBars({Key key}) : super(key: key);

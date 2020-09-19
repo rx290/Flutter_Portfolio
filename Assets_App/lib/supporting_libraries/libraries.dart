@@ -75,6 +75,9 @@ export 'package:assets_app/Screens/Text_Widgets/Subscreens/RichText.dart';
 export 'package:assets_app/Screens/Text_Widgets/Subscreens/Text.dart';
 export 'package:flutter/material.dart';
 export 'package:device_preview/device_preview.dart';
+export 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+export 'package:random_color/random_color.dart';
+export 'package:responsive_flutter/responsive_flutter.dart';
 
 import 'package:assets_app/Screens/Assets/Assets.dart';
 import 'package:assets_app/Screens/Assets/SubScreens/Asset_Bundle.dart';
@@ -164,6 +167,11 @@ import 'package:assets_app/Screens/Text_Widgets/Subscreens/RichText.dart';
 import 'package:assets_app/Screens/Text_Widgets/Subscreens/Text.dart';
 import 'package:assets_app/Screens/Text_Widgets/TextWidgets.dart';
 import 'package:flutter/material.dart';
+import 'package:random_color/random_color.dart';
+
+RandomColor _randomColor = RandomColor();
+Color rand_color =
+    _randomColor.randomColor(colorBrightness: ColorBrightness.light);
 
 var customRoutes = <String, WidgetBuilder>{
   '/': (context) => Home(),
