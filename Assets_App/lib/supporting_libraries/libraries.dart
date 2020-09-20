@@ -1,9 +1,6 @@
 export 'package:assets_app/Screens/Assets/Assets.dart';
-export 'package:assets_app/Screens/Assets/SubScreens/Asset_Bundle.dart';
 export 'package:assets_app/Screens/Assets/SubScreens/Icons.dart';
 export 'package:assets_app/Screens/Assets/SubScreens/Images.dart';
-export 'package:assets_app/Screens/Assets/SubScreens/Raw_Images.dart';
-export 'package:assets_app/Screens/Assets/SubScreens/SVG_Pictures.dart';
 export 'package:assets_app/Screens/Basic_widgets/SubScreens/Column.dart';
 export 'package:assets_app/Screens/Basic_widgets/SubScreens/Container.dart';
 export 'package:assets_app/Screens/Basic_widgets/SubScreens/Flutter_logo.dart';
@@ -80,11 +77,8 @@ export 'package:random_color/random_color.dart';
 export 'package:responsive_flutter/responsive_flutter.dart';
 
 import 'package:assets_app/Screens/Assets/Assets.dart';
-import 'package:assets_app/Screens/Assets/SubScreens/Asset_Bundle.dart';
 import 'package:assets_app/Screens/Assets/SubScreens/Icons.dart';
 import 'package:assets_app/Screens/Assets/SubScreens/Images.dart';
-import 'package:assets_app/Screens/Assets/SubScreens/Raw_Images.dart';
-import 'package:assets_app/Screens/Assets/SubScreens/SVG_Pictures.dart';
 import 'package:assets_app/Screens/Basic_widgets/BasicWidgets.dart';
 import 'package:assets_app/Screens/Basic_widgets/SubScreens/Column.dart';
 import 'package:assets_app/Screens/Basic_widgets/SubScreens/Container.dart';
@@ -98,7 +92,6 @@ import 'package:assets_app/Screens/Buttons/SubScreens/Button_Bar.dart';
 import 'package:assets_app/Screens/Buttons/SubScreens/Drop_down_button.dart';
 import 'package:assets_app/Screens/Buttons/SubScreens/FAB.dart';
 import 'package:assets_app/Screens/Buttons/SubScreens/Flat_button.dart';
-import 'package:assets_app/Screens/Buttons/SubScreens/Icon_button.dart';
 import 'package:assets_app/Screens/Buttons/SubScreens/Outline_button.dart';
 import 'package:assets_app/Screens/Buttons/SubScreens/Popup_menu.dart';
 import 'package:assets_app/Screens/Buttons/SubScreens/Raised_button.dart';
@@ -187,11 +180,8 @@ var customRoutes = <String, WidgetBuilder>{
   '/Navigation Widgets': (context) => Navigation(),
   '/Single Child Layout Widgets': (context) => SingleChildLayout(),
   '/Text Widgets': (context) => TextWidgets(),
-  '/Assets_Bundles': (context) => AssetBundle(),
   '/Icon': (context) => IconWidget(),
   '/Image': (context) => Images(),
-  '/Raw_Image': (context) => RawImages(),
-  '/SVG_Picture': (context) => SvgPicture(),
   '/Column': (context) => Columns(),
   '/Container': (context) => Containers(),
   '/Flutter Logo': (context) => FlutterLogos(),
@@ -203,7 +193,6 @@ var customRoutes = <String, WidgetBuilder>{
   '/DropDownButton': (context) => DropDownButtons(),
   '/FloatActionButton': (context) => FAB(),
   '/FlatButton': (context) => FlatButtons(),
-  '/IconButton': (context) => IconButtons(),
   '/OutlineButton': (context) => OutlineButtons(),
   '/PopupButton': (context) => PopupButtons(),
   '/RaisedButton': (context) => RaisedButtons(),

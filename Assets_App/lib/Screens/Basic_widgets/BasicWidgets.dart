@@ -14,13 +14,13 @@ class BasicWidgets extends StatelessWidget {
     ];
 
     List<String> routes = [
-      'Column',
-      'Container',
-      'Flutter Logo',
-      'Material Theme',
-      'Place Holder',
-      'Row',
-      'Scaffold',
+      '/Column',
+      '/Container',
+      '/Flutter Logo',
+      '/Material Theme',
+      '/Place Holder',
+      '/Row',
+      '/Scaffold',
     ];
 
     return Scaffold(

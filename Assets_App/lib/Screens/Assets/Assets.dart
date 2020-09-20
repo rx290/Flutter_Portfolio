@@ -4,19 +4,13 @@ class Asset extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> text = [
-      'Assets Bundles Widget',
       'Icon Widget',
       'Image Widget',
-      'Raw Image Widget',
-      'SVG Picture',
     ];
 
     List<String> routes = [
-      '/Assets_Bundles',
       '/Icon',
       '/Image',
-      '/Raw_Image',
-      '/SVG_Picture',
     ];
 
     return Scaffold(
